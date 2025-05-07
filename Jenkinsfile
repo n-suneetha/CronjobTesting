@@ -3,6 +3,9 @@ pipeline {
  
     triggers {
         cron('* * * * *') // Runs every 1 minute
+        //cron(*/5 * * * *) // Runs every 5 minutes
+        //cron(*/10 * * * *) // Runs every 10 minutes
+        //cron(*/15 * * * *) // Runs every 15 minutes
     }
  
     stages {
